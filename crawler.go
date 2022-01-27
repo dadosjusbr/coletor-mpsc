@@ -196,13 +196,13 @@ func (c crawler) selecionaMesAnoVerbas(ctx context.Context) error {
 	if c.year == "2018"{
 		pathYear = "/html/body/div[5]/div/div[58]/div[3]/div/div[1]/div[3]"
 	} else if c.year == "2019"{
-		pathYear = "/html/body/div[5]/div/div[67]/div[3]/div/div[1]/div[4]"
+		pathYear = "/html/body/div[5]/div/div[58]/div[3]/div/div[1]/div[4]"
 	} else if c.year == "2020"{
-		pathYear = "/html/body/div[5]/div/div[67]/div[3]/div/div[1]/div[5]"
+		pathYear = "/html/body/div[5]/div/div[58]/div[3]/div/div[1]/div[5]"
 	} else if c.year == "2021"{
-		pathYear = "/html/body/div[5]/div/div[67]/div[3]/div/div[1]/div[6]"
+		pathYear = "/html/body/div[5]/div/div[58]/div[3]/div/div[1]/div[6]"
 	} else if c.year == "2022"{
-		pathYear = "/html/body/div[5]/div/div[67]/div[3]/div/div[1]/div[7]"
+		pathYear = "/html/body/div[5]/div/div[58]/div[3]/div/div[1]/div[7]"
 	}
 
 	if c.month == "01" {
